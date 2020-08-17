@@ -1,3 +1,37 @@
+import redis
+from config import REDIS,REDIS_SAVE_TIME
+from redis_saver import redis2dictlist,dictlist2redis
+from logger import logger
+
+
+redis_client = redis.StrictRedis(**REDIS)    #连接redis数据库
+
+
+# def updata_redis(id):
+#
+#     redis_exist_state = redis_client.exists(id)  # 用户id的Redis数据是否存在
+#
+#     datas = read_all_data_state_1()
+#     try:
+#         if self.redis_exist_state ==1:
+#             redis_client.hdel(self.id)
+#         add = redis_client.hmset(self.id, dictlist2redis(datas))
+#         set_time = redis_client.expire(self.id, REDIS_SAVE_TIME)
+#         if add == 1:
+#             logger.info(self.id + "的数据写入redis成功")
+#         else:
+#             logger.info(self.id + "的数据写入redis失败")
+#     except EnvironmentError as e:
+#         logger.error(e)
+
+
+def return_from_redis(self):
+    if self.redis_exist_state == 1:
+        len = redis_client.hlen(self.id)
+        result = redis_client.hmget(self.id, [i for i in range(len)])
+        return redis2dictlist(result)
+
+
 
 
 def redis2dictlist(redis_result):  # redis的hash数据  转换为 字典列表数据

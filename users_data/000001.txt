@@ -1,4 +1,5 @@
-{"query": "\u8fd9\u4ef6\u8863\u670d\u4ec0\u4e48\u4ef7\u683c\uff1f", "keywords": ["\u4ef7\u683c"], "answer": "125\u5143", "state": 1, "time": "2020-08-14/18:52:42"}
-{"query": "\u8fd9\u4ef6\u8863\u670d\u90fd\u6709\u4ec0\u4e48\u989c\u8272\uff1f", "keywords": ["\u989c\u8272"], "answer": "\u9ed1\u8272\u767d\u8272\u90fd\u6709\u554a", "state": 1, "time": "2020-08-14/18:52:42"}
-{"query": "\u8fd9\u4ef6\u8863\u670d\u90fd\u6709\u4ec0\u4e48\u5c3a\u7801\uff1f", "keywords": ["\u5c3a\u7801"], "answer": "XXL", "state": 1, "time": "2020-08-14/18:52:42"}
-{"query": "\u683c\u529b\u53d8\u9891\u7a7a\u8c03\u771f\u7684\u5f88\u7701\u7535\u5417\uff1f", "keywords": ["\u683c\u529b", "\u53d8\u9891", "\u7a7a\u8c03", "\u7701\u7535"], "answer": "\u662f\u7684\uff0c\u6bcf\u665a\u4e0d\u5230\u4e00\u5ea6\u7535", "state": 1, "time": "2020-08-14/18:53:43"}
+{"class": "1", "query": "\u8fd9\u4ef6\u8863\u670d\u4ec0\u4e48\u4ef7\u683c\uff1f", "keywords": ["\u4ef7\u683c"], "answer": "125\u5143", "state": 1, "time": "2020-08-17/14:05:06"}
+{"class": "1", "query": "\u8fd9\u4ef6\u8863\u670d\u90fd\u6709\u4ec0\u4e48\u989c\u8272\uff1f", "keywords": ["\u989c\u8272"], "answer": "\u9ed1\u8272\u767d\u8272\u90fd\u6709\u554a", "state": 0, "time": "2020-08-17/14:05:06"}
+{"class": "1", "query": "\u8fd9\u4ef6\u8863\u670d\u90fd\u6709\u4ec0\u4e48\u5c3a\u7801\uff1f", "keywords": ["\u5c3a\u7801"], "answer": "XXL", "state": 1, "time": "2020-08-17/14:05:06"}
+{"class": "2", "query": "\u683c\u529b\u53d8\u9891\u7a7a\u8c03\u771f\u7684\u5f88\u7701\u7535\u5417\uff1f", "keywords": ["\u683c\u529b", "\u53d8\u9891", "\u7a7a\u8c03", "\u7701\u7535"], "answer": "\u662f\u7684\uff0c\u6bcf\u665a\u4e0d\u5230\u4e00\u5ea6\u7535", "state": 1, "time": "2020-08-17/14:05:21"}
+{"class": "1", "query": "\u8fd9\u4ef6\u8863\u670d\u4ec0\u4e48\u4ef7\u683c\uff1f", "keywords": ["\u4ef7\u683c"], "answer": "120\u5143", "state": 0, "time": "2020-08-17/14:19:27"}

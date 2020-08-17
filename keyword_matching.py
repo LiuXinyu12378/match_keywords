@@ -42,8 +42,9 @@ class Match():
             index = answer_score[0][1][0]  #找到idx索引值
             result =  self.datas[index]
             result_answer = result["answer"]
+            sim_query = result["query"]
 
-            return result_answer
+            return sim_query,result_answer
 
         return None
 
